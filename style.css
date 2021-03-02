@@ -19,14 +19,11 @@ main > section {
     margin-bottom: 10px;
 }
 
-header {
-
-}
-
 header > img {
     width: 105px;
     border-right : lightgrey 1px solid;
     padding: 5px;
+    margin-bottom: 10px;
 }
 
 footer {
@@ -46,21 +43,17 @@ footer {
     font-size: 30px;
 }
 
-#section-two > h1,
-#section-two > div > * {
-
-}
-
 #section-two > h1 {
     height: 10%;
 }
 
 #section-two > h2 {
     margin-top: 30px;
+    font-size: 30px;
 }
 
 #section-two > p {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: grey;
 }
 
@@ -94,6 +87,7 @@ footer {
 
 header nav ul {
     list-style: none;
+    margin-bottom: 30px;
 }
 
 header nav a {
@@ -113,6 +107,13 @@ header nav {
 article > p,
 aside > p {
     color: grey;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+article > h4,
+aside > h4 {
+    margin-top: 15px;
 }
 
 footer{
