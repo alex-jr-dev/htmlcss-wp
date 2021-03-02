@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body > * {
+    margin: auto;
+    width: 70%;
+}
+
+body > *:not(footer),
+main > section {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+header {
+
+}
+
+header > img {
+    width: 105px;
+    border-right : lightgrey 1px solid;
+    padding: 5px;
+}
+
+footer {
+    height: 50px;
+}
+
+#section-one {
+    /* height: 450px; */
+    padding: 310px 50% 50px 50px;
+    color: white;
+    background: url(img/banner.jpg);
+    background-position: center;
+    border-radius: 15px;
+    text-overflow: ellipsis;
+}
+
+#section-one > h2 {
+    font-size: 30px;
+}
+
+#section-two {
+    height: 450px;
+}
+
+#section-two > h1,
+#section-two > div > * {
+
+}
+
+#section-two > h1 {
+    height: 10%;
+}
+
+#section-two > h2 {
+    margin-top: 30px;
+}
+
+#section-two > p {
+    margin-bottom: 30px;
+    color: grey;
+}
+
+#section-two > div {
+    height: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#section-two aside,
+#section-two article {
+    height: 100%;
+    float: left;
+}
+
+#section-two aside {
+    width: 25%;
+}
+
+#section-two article {
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav a {
+    text-decoration: none;
+    color: grey;
+}
+
+header nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header nav {
+    margin-top: 10px;
+}
