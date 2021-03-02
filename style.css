@@ -34,7 +34,6 @@ footer {
 }
 
 #section-one {
-    /* height: 450px; */
     padding: 310px 50% 50px 50px;
     color: white;
     background: url(img/banner.jpg);
@@ -45,10 +44,6 @@ footer {
 
 #section-one > h2 {
     font-size: 30px;
-}
-
-#section-two {
-    height: 450px;
 }
 
 #section-two > h1,
@@ -114,3 +109,36 @@ header nav li {
 header nav {
     margin-top: 10px;
 }
+
+article > p,
+aside > p {
+    color: grey;
+}
+
+footer{
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
+
+.main-img {
+    height: 200px;
+    background-position: center;
+    background-size: contain;
+    border-radius: 15px;
+}
+
+.clearfix :nth-child(1) > .main-img {
+    background-image: url(img/img-1.jpg);
+}
+
+.clearfix :nth-child(2) > .main-img {
+    background-image: url(img/banner-2.jpg);
+}
+
+.clearfix :nth-child(3) > .main-img {
+    background-image: url(img/img-3.jpg);
+}
+
